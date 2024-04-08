@@ -1,0 +1,21 @@
+{
+  "name": "class-tut-1",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Daniel Große <hallo@daniel-der-grosse.de>",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  }
+}
